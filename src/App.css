@@ -1,0 +1,81 @@
+#canvas {
+  @apply h-full w-full md:w-4/5;
+  @apply border-4 border-white drop-shadow-xl block m-auto;
+  width: 100%;
+  background-color: thistle;
+  box-shadow: 0px 0px 20px rgba(219, 155, 185, 0.7);
+}
+
+.welcome-box {
+  height: 60vh;
+  padding: 2rem;
+  border: 4px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 2rem;
+  background-color: currentColor;
+  box-shadow: 0px 0px 20px rgb(255 103 61 / 50%);
+}
+
+.welcome-text1 {
+  font-size: 4rem;
+  color: #fff;
+  font-family: monospace;
+  margin-bottom: 5rem;
+}
+
+.welcome-text2 {
+  font-weight: 900;
+  font-size: 1rem;
+  color: #fff;
+  font-family: monospace;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.welcome {
+  height: fit-content;
+  background: red;
+  border: 2px solid khaki;
+  border-radius: 1rem;
+  width: 40%;
+}
+
+.welcome-text {
+  color: khaki;
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+.gohome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.gohome-text {
+  color: darkgoldenrod;
+  font-size: 1.2rem;
+  font-family: inherit;
+  height: fit-content;
+  background: black;
+  border: 2px solid khaki;
+  border-radius: 0.5rem;
+}
+
+.game-over-text {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: fangsong;
+}
